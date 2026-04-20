@@ -1,0 +1,137 @@
+# Arduino IDE
+*.elf
+*.hex
+*.bin
+*.eep
+*.lss
+*.map
+*.sym
+*.d
+build/
+build-*
+*.o
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+*.mo
+*.gmo
+*.pot
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled statically linked libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.project
+.cproject
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Arduino IDE Temp Files
+*.tmp
+*.bak
+*.backup
+*~
+.#*
+
+# Build artifacts
+dist/
+build/
+target/
+*.jar
+
+# Dependencies
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Testing
+coverage/
+.nyc_output/
+.coverage
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Project specific
+*.ino.cpp
+.ino.cpp
+serial_output.txt
+debug.log
+
+# Documentation build files
+docs/_build/
+site/
+
+# Temporary files
+*.temp
+temp/
+tmp/
+
+# User specific settings
+.user
+*.user
+
+# Unused libraries
+libraries/unused/
+old_sketches/
+
+# Firmware bins (if stored)
+firmware/
+*.firmware
+
+# Test files (optional)
+test_output/
+results/
